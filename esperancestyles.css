@@ -1,0 +1,122 @@
+﻿body {
+    margin: 10px;
+    color: #302825;
+    font-family: "Orbitron", 'Franklin Gothic';
+    font-style: italic;
+    font-size: 20px;
+    background-color: white;
+    background-image: url(file:///C:/Users/Tupac/Documents/Esperancesite/img/waterslice.jpg);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    overflow: hidden;
+}
+
+#background-video {
+    display: flex;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    position= absolute;
+}
+.audioalign {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 79.35%;
+    top: 5px;
+}
+
+.nav-wrapper {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.right-side {
+    text-align: right;
+    font-family: "Berkshire Swash";
+}
+
+.container {
+}
+
+
+.nav-link-wrapper {
+    display: flex;
+    border-bottom: 14px solid transparent;
+    transition: border-bottom 1s;
+    height: 11px;
+    width:150px;
+}
+    .nav-link-wrapper a {
+        text-decoration: none;
+        color: #a68579;
+        letter-spacing: 10px;
+        font-size: 0.9em;
+        transition: color 2s;
+    }
+.nav-link-wrapper:hover {
+        border-bottom: 1px solid #302825;
+}
+.nav-link-wrapper a:hover {
+        text-decoration: underline;
+        color:#302825
+}
+
+
+
+        .logo-wrapper {
+    position: fixed;
+    margin: 20px;
+    padding: 100px;
+    width: 100px;
+}
+
+.comments {
+    font-size: 10px;
+    font-family: 'Juice ITC'
+}
+
+
+
+.home {
+    display: flex;
+    border-bottom: 14px solid transparent;
+    transition: border-bottom 1s;
+    text-align: right;
+    width:90%;
+    height:11px;
+
+}
+    .home a {
+        text-decoration: none;
+        color: #a68579;
+        letter-spacing: 10px;
+        font-size: 0.9em;
+        transition: color 2s;
+    }
+    .home:hover {
+        border-bottom: 1px solid #302825;
+    }
+    .home a:hover {
+        text-decoration: underline;
+        color: #302825
+    }
+
+
+
+.logo-wrapper {
+    position: relative;
+    left: 200px;
+}
+img-text-wrapper {
+    width: 200px;
+}
+
